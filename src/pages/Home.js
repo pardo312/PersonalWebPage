@@ -4,7 +4,7 @@ import './Pages.css';
 function Home() {
     return (
         <div className="home">
-            <div className="container">
+            <div className="container" >
                 <h1 className="title">Daniel Pardo</h1>
                 <h2 className="subTitle">
                     <br/> Bienvenidos a mi pagina web
@@ -12,13 +12,12 @@ function Home() {
                     <br/>
                 </h2>
                 <div className="row" >
-                    <div class="col">
+                    <div class="col-sm-6">
                         <div class="card  bg-dark" style={{width:"30rem"}}>
-                            <img class="card-img-top" src="https://i.imgur.com/zFWSXIt.jpg" alt="Card image cap"/>
-                            
+                            <img class="card-img-top" src="https://i.imgur.com/zFWSXIt.jpg" alt="Card image cap"/> 
                         </div>
                     </div>
-                    <div class="col paragraph">
+                    <div class="col-sm-6 paragraph">
                         <p>
                         Desde que tengo memoria me apasionan los videojuegos. 
                         Me encantaba la forma en que me apoyaban en los momentos más difíciles de mi vida,

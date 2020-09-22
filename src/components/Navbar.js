@@ -28,7 +28,6 @@ function Navbar() {
             <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
                     <div class="col-m-9">
                       <ul className='nav-menu-items' onClick={showSidebar}>
-
                         {SidebarData.map((item, index) => {
                           return (
                             <li key={index} className={item.cName}>
