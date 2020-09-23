@@ -14,7 +14,7 @@ function Home() {
                 <div className="row" >
                     <div class="col-sm-6">
                         <div class="card  bg-dark" style={{width:"30rem"}}>
-                            <img class="card-img-top" src="https://i.imgur.com/zFWSXIt.jpg"/> 
+                            <img class="card-img-top" src="https://i.imgur.com/zFWSXIt.jpg" alt="profileImg"/> 
                         </div>
                     </div>
                     <div class="col-sm-6 paragraph">
