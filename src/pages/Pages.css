@@ -3,13 +3,14 @@
 .aboutMe {
   background-color: #151926;
   display: flex;
-  height: 100vh;
   text-align: center;
+  height:1500px;
+  margin-left: 50px;
   align-items: center;
   justify-content: center;
 }
 .title{
-    font-size: 8rem;
+    font-size: 80px;
     color: #d5dce6;
 }
 .subTitle{
@@ -20,4 +21,10 @@
     font-size: 1.4rem;
     text-align: center;
     color: #d5dce6;
+}
+.content{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
 }

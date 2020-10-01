@@ -7,14 +7,14 @@ import Portafolio from './pages/Portafolio'
 import AboutMe from './pages/AboutMe'
 function App() {
   return (
-    <div>
+    <div >
       <Router>
-        <Navbar />
-        <Switch>
-          <Route path='/' exact component={Home} />
-          <Route path='/portafolio' component={Portafolio} />
-          <Route path='/aboutMe' component={AboutMe} />
-        </Switch>
+          <Navbar/>
+          <Switch>
+            <Route path='/' exact component={Home} />
+            <Route path='/portafolio' component={Portafolio} />
+            <Route path='/aboutMe' component={AboutMe} />
+          </Switch>
       </Router>
     </div>
   );
