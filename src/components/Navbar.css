@@ -1,7 +1,7 @@
 .navbar {
     background-color: #000000;
     height: 100vh;
-    width: 10vw;
+    width: 40px;
     display: flex;
     justify-content: center;
     position: fixed;
@@ -10,7 +10,7 @@
   }
   
   .menu-arrow {
-    font-size: 1rem;
+    font-size: 30px;
     background: none;
   }
   
@@ -30,6 +30,7 @@
   .nav-menu.active {
     left: 0;
     transition: 350ms;
+    z-index: 1;
   }
   
   .nav-text {
