@@ -1,20 +1,28 @@
 .home,
 .portafolio,
 .aboutMe {
-  background-color: #151926;
+  background-color: #1a1a2e;
   display: flex;
   text-align: center;
   height:1500px;
   margin-left:35px;
   justify-content: center;
 }
-.title{
-    font-size: 80px;
-    color: #d5dce6;
+.banner{
+    font-size: 60px;
+    color: #99CAFF;
+    font-weight: bolder;
 }
-.subTitle{
+.title{
     font-size: 2.5rem;
-    color: #d5dce6;
+    color: #BBEEF1;
+    font-style: italic;
+}
+.subtitle{
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align: center;
+    color: #738AAB;
 }
 .paragraph{
     font-size: 1.4rem;
@@ -26,4 +34,25 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
+}
+
+.barFrame{
+    background-color: grey;
+    justify-content: left;
+    margin-left: 30px;
+    padding: 0px;
+    width: 90%;
+    border-radius:25px;
+}
+.barValue{
+    background-color: #D5DCE6; 
+    border-radius:25px;
+}
+.center{
+    text-align: center;
+    align-items: center;
+}
+.aling-Left{
+    text-align: left;
+    align-items: left;
 }

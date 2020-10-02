@@ -5,8 +5,8 @@ function Home() {
     return (
         <div className="home">
             <div className="container" >
-                <h1 className="title">Daniel Pardo</h1>
-                <h2 className="subTitle">
+                <h1 className="banner">Daniel Pardo </h1>
+                <h2 className="title center">
                     <br/> Bienvenidos a mi pagina web
                     <br/>
                     <br/>
@@ -26,6 +26,40 @@ function Home() {
                         que mis héroes hicieron cuando yo estaba abajo.
                         </p>
                     </div>
+                    <div class="col-xl-12">
+                        <p class="title center" ><b><i ></i>Habilidades</b></p>
+                    </div>
+                    {/* Barras de habilidades */}
+                    <div class="col-xl-12">
+                        <p class="subtitle aling-Left" >Desarrollo de juegos/Coding</p>
+                    </div>
+                    <div class="col-xl-12 barFrame">
+                        <div class="barValue" style={{width: "75%"}}>75%</div>
+                    </div>
+
+                    <div class="col-xl-12">
+                        <br/><p class="subtitle aling-Left" >Desarrollo web</p>
+                    </div>
+                    <div class="col-xl-12 barFrame">
+                        <div class="barValue" style={{width: "50%"}}>50%</div>
+                    </div>
+
+                    <div class="col-xl-12">
+                        <br/><p class="subtitle aling-Left" >Produccion musical</p>
+                    </div>
+                    <div class="col-xl-12 barFrame">
+                        <div class="barValue" style={{width: "30%"}}>30%</div>
+                    </div>
+
+                    <div class="col-xl-12">
+                        <br/><p class="subtitle aling-Left" >Modelado 3D</p>
+                    </div>
+                    <div class="col-xl-12 barFrame">
+                        <div class="barValue" style={{width: "30%"}}>30%</div>
+                    </div>
+
+                    
+
                 </div>
             </div>
         </div>
