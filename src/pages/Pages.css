@@ -1,10 +1,19 @@
 .home,
-.portafolio,
 .aboutMe {
   background-color: #1a1a2e;
   display: flex;
   text-align: center;
-  height:1500px;
+  height:1000pt;
+  margin-left:35px;
+  justify-content: center;
+}
+
+.portafolio
+{
+ background-color: #1a1a2e;
+  display: flex;
+  text-align: center;
+  height:100vh;
   margin-left:35px;
   justify-content: center;
 }
