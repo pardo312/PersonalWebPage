@@ -12,13 +12,13 @@ function Home() {
                     <br/>
                 </h2>
                 <div className="row" >
-                    <div class="col-xl-6 paragraph">
-                        <div class="content" style={{width:"90%"}}>
-                            <img class="card-img" src="https://i.imgur.com/zFWSXIt.jpg" alt="profileImg"/> 
+                    <div class="col-xl-6"style={{width:"100vh"}}>
+                        <div className="content center" >
+                            <img class="card-img center" src="https://i.imgur.com/zFWSXIt.jpg" alt="profileImg"/> 
                         </div>
                     </div>
-                    <div class="col-xl-6 paragraph">
-                        <p>
+                    <div class="col-xl-6">
+                        <p className="paragraph">
                         Desde que tengo memoria me apasionan los videojuegos. 
                         Me encantaba la forma en que me apoyaban en los momentos más difíciles de mi vida,
                         para seguir luchando contra los obstáculos. A determinar. Por eso mi sueño es
@@ -45,19 +45,18 @@ function Home() {
                     </div>
 
                     <div class="col-xl-12">
-                        <br/><p class="subtitle aling-Left" >Produccion musical</p>
-                    </div>
-                    <div class="col-xl-12 barFrame">
-                        <div class="barValue" style={{width: "30%"}}>30%</div>
-                    </div>
-
-                    <div class="col-xl-12">
                         <br/><p class="subtitle aling-Left" >Modelado 3D</p>
                     </div>
                     <div class="col-xl-12 barFrame">
                         <div class="barValue" style={{width: "30%"}}>30%</div>
                     </div>
 
+                    <div class="col-xl-12">
+                        <br/><p class="subtitle aling-Left" >Produccion musical</p>
+                    </div>
+                    <div class="col-xl-12 barFrame">
+                        <div class="barValue" style={{width: "10%"}}>10%</div>
+                    </div>
                     
 
                 </div>

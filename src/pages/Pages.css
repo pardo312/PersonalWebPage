@@ -14,6 +14,7 @@
     font-weight: bolder;
 }
 .title{
+    margin-top: -10px;
     font-size: 2.5rem;
     color: #BBEEF1;
     font-style: italic;
@@ -30,10 +31,10 @@
     color: #d5dce6;
 }
 .content{
-    display: block;
+    display: inherit;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 50px;
+    width: 30vw;
 }
 
 .barFrame{

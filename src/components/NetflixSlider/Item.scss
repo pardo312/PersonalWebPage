@@ -1,5 +1,5 @@
 .item {
-  flex: 0 0 21.7%;
+  flex: 0 0 20.7vw;
   transition: transform 300ms ease 100ms;
   margin: 0 2px;
   position: relative;
@@ -8,6 +8,6 @@
     height: 100%;
     width:70%;
     vertical-align: top;
-    border-radius: 20px;
+    border-radius: 1ch;
   }
 }
