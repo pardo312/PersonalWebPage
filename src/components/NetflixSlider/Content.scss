@@ -30,7 +30,7 @@
         top: 0;
         bottom: 0;
         left: 100%;
-        width: 275px;
+        width: 100%;
       }
     }
 
@@ -51,22 +51,22 @@
     z-index: 3;
 
     &__container {
-      padding: 30px 70px;
       color: wheat;
+      height: 100%;
     }
   }
 
   &__title {
-    font-size: 45px;
+    font-size: 5vw;
     color: #fff;
     font-weight: 700;
   }
 
   &__description {
-    font-size: 18px;
+    font-size: 2vw;
     color: #999;
     margin-top: 20px;
-    max-width: 500px;
+    max-width: 30vw;
   }
 
   &__close {
