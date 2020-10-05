@@ -31,10 +31,9 @@
     color: #d5dce6;
 }
 .content{
-    display: inherit;
     margin-left: auto;
     margin-right: auto;
-    width: 30vw;
+    width: 10vw;
 }
 
 .barFrame{

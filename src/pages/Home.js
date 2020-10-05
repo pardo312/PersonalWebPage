@@ -12,12 +12,12 @@ function Home() {
                     <br/>
                 </h2>
                 <div className="row" >
-                    <div class="col-xl-6"style={{width:"100vh"}}>
+                    <div class="col-xl-6 col-sm-12">
                         <div className="content center" >
-                            <img class="card-img center" src="https://i.imgur.com/zFWSXIt.jpg" alt="profileImg"/> 
+                            <img class="card-img center" style={{maxWidth:"30vw"}} src="https://i.imgur.com/zFWSXIt.jpg" alt="profileImg"/> 
                         </div>
                     </div>
-                    <div class="col-xl-6">
+                    <div class="col-xl-6 col-12">
                         <p className="paragraph">
                         Desde que tengo memoria me apasionan los videojuegos. 
                         Me encantaba la forma en que me apoyaban en los momentos más difíciles de mi vida,
