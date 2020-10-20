@@ -1,8 +1,9 @@
 import React from 'react';
 import Slider from '../components/NetflixSlider'
+import './Pages.css';
 
 function Portafolio() {
-    const movies = [
+    const Games = [
         {
           id: 1,
           image: '/images/BoomAwayBanner.jpeg',
@@ -28,15 +29,44 @@ function Portafolio() {
           link: "https://jiufen.itch.io/la-leyenda-de-catequil"
         }
       ];
+      const Blender = [
+        {
+          id: 1,
+          image: '/images/SeashackModelBanner.png',
+          imageBg: '',
+          title: 'Choza en el mar',
+          description: 'Choza en el mar utilizando tecnicas de escultura basica para las rocas, uso de curvas para las cuerdas y aplicacion de modelado 3d para los demas objetos y animales',
+          link: '',
+          video:'/images/SeaShackModel.mp4'
+        },
+        {
+          id: 2,
+          image: '/images/Pozo.jpeg',
+          imageBg: '/images/Pozo.jpeg',
+          title: 'Pozo',
+          description: 'Pozo utilizando tecnicas de modelado 3d y conocimiento de herramientas de blender',
+          link: '',
+          video:''
+        }
+      ];
       
     return (
         <div className="portafolio">
             <div className="app">
+            <p className="banner" style={{marginTop:"38px"}}>Portaforlio</p>
+                <p className="title">Juegos</p>
                 <Slider>
-                {movies.map(movie => (
-                    <Slider.Item movie={movie} key={movie.id}>item1</Slider.Item>
+                {Games.map(Game => (
+                    <Slider.Item movie={Game} key={Game.id}>item1</Slider.Item>
                 ))}
                 </Slider>
+                <p className="title">Modelado 3D</p>
+                <Slider>
+                {Blender.map(BlenderItem => (
+                    <Slider.Item movie={BlenderItem} key={BlenderItem.id}>item1</Slider.Item>
+                ))}
+                </Slider>
+                
                </div>
         </div>
     )

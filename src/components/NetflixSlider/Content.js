@@ -9,12 +9,17 @@ const Content = ({ movie, onClose }) => (
       <div
         className="content__background__image"
         style={{ 'background-image': `url(${movie.imageBg})` }}
-      />
+      >
+          <video src={movie.video} width="100%" height="100%" loop="true" autoplay="autoplay">
+          Your browser does not support the video tag.
+          </video>
+      </div>
+      
     </div>
     <div className="content__area">
       <div className="content__area__container">
         <div className="content__title">{movie.title}</div>
-        <div className="content__description">{movie.description} Link: <a href={movie.link} target="_blank" rel="noopener noreferrer">{movie.link}</a></div>
+        <div className="content__description">{movie.description} <a href={movie.link} target="_blank" rel="noopener noreferrer">{movie.link}</a></div>
       </div>
       <button className="content__close" onClick={onClose}>
         <IconCross />

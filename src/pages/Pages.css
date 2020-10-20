@@ -13,7 +13,7 @@
  background-color: #1a1a2e;
   display: flex;
   text-align: center;
-  height:100vh;
+  height:1600px;
   margin-left:35px;
   justify-content: center;
 }
@@ -64,4 +64,7 @@
 .aling-Left{
     text-align: left;
     align-items: left;
+}
+.footer{
+    margin-bottom:100px;
 }
