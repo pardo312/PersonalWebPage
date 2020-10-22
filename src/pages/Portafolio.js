@@ -27,6 +27,14 @@ function Portafolio() {
           title: 'La Leyenda de Catequil',
           description: 'First person shooter, que cuenta la historia del dios inca ubicado al sur de colombia, Catequil. ',
           link: "https://jiufen.itch.io/la-leyenda-de-catequil"
+        },
+        {
+          id: 4,
+          image: '/images/PingPong.png',
+          imageBg: '/images/PingPongContent.png',
+          title: 'Ping Pong',
+          description: 'Juego de ping pong desarrollado en html y javascrpit',
+          link: "https://pingpongjiufen.netlify.app/"
         }
       ];
       const Blender = [
