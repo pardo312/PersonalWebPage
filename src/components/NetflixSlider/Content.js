@@ -10,7 +10,7 @@ const Content = ({ movie, onClose }) => (
         className="content__background__image"
         style={{ 'background-image': `url(${movie.imageBg})` }}
       >
-          <video src={movie.video} width="100%" height="100%" loop="true" autoplay="autoplay">
+          <video className="content__background__video" src={movie.video}  width="100%" height="100%" loop="true" autoplay="autoplay">
           Your browser does not support the video tag.
           </video>
       </div>
