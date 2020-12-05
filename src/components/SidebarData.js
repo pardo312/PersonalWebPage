@@ -17,8 +17,8 @@ export const SidebarData = [
         cName: 'nav-text'
     },
     {
-        title: 'Acerca de mi',
-        path: '/aboutMe',
+        title: 'Contacto',
+        path: '/contacto',
         icon: <IOIcons.IoIosContact/>,
         cName: 'nav-text'
     }

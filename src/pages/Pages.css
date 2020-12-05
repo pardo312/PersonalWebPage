@@ -1,5 +1,4 @@
 .home,
-.aboutMe,
 .portafolio {
   background-color: #1a1a2e;
   display: flex;
@@ -10,6 +9,15 @@
   padding-bottom:10%;
 }
 
+.aboutMe{
+  background-color: #1a1a2e;
+  display: flex;
+  text-align: center;
+  height:100vh;
+  margin-left:35px;
+  justify-content: center;
+  padding-bottom:10%;
+}
 .banner{
     font-size: 60px;
     color: #99CAFF;
