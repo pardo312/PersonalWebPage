@@ -18,6 +18,13 @@
   justify-content: center;
   padding-bottom:10%;
 }
+.leftBanner{
+  display: grid;
+  text-align: center;
+  height:100vh;
+  width:60vw;
+  justify-content: center;
+}
 .banner{
     font-size: 60px;
     color: #99CAFF;
