@@ -6,7 +6,7 @@ function AboutMe() {
   return (
     <IconContext.Provider value={{ color: "#fff" }}>
       <div className="aboutMe">
-        <img className="leftBanner" src="https://images.freeimages.com/images/large-previews/eec/get-in-touch-1257696.jpg"></img>
+        <img className="leftBanner" src="https://images.freeimages.com/images/large-previews/eec/get-in-touch-1257696.jpg" alt="bannerImage"></img>
         <div className="container">
           <h1 className="banner">Contacto </h1>
           <div className="row" style={{ marginTop: "50px" }}>
