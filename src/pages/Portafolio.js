@@ -56,6 +56,15 @@ function Portafolio() {
           description: 'Juego de ping pong desarrollado en html y javascrpit',
           link: "https://pingpongjiufen.netlify.app/",
           video:''
+        },
+        {
+          id: 6,
+          image: '/images/AgarioClone.png',
+          imageBg: '/images/AgarioClone.png',
+          title: 'Agar.io Concept',
+          description: 'Juego de ping pong desarrollado en html y javascrpit',
+          link: "https://agariomovementconcept.netlify.app/",
+          video:''
         }
       ];
       const Blender = [
