@@ -58,7 +58,7 @@ function Portafolio() {
           video:''
         },
         {
-          id: 6,
+          id: 7,
           image: '/images/AgarioClone.png',
           imageBg: '/images/AgarioClone.png',
           title: 'Agar.io Concept',
