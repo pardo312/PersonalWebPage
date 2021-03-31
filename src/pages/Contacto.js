@@ -11,17 +11,17 @@ function AboutMe() {
           <h1 className="banner">Contacto </h1>
           <div className="row" style={{ marginTop: "50px" }}>
             <div class="col-xl-12 col-12">
-              <a href="mailto:pardod312@gmail.com" target="_blank">
+              <a href="mailto:pardod312@gmail.com" target="_blank" rel="noopener noreferrer">
                 <p className="title">
                   <FaIcons.FaEnvelope />Correo: pardod312@gmail.com
                 </p>
               </a>
-              <a href="https://www.instagram.com/jiufen_dp/" target="_blank">
+              <a href="https://www.instagram.com/jiufen_dp/" target="_blank" rel="noopener noreferrer">
                 <p className="title">
                   <FaIcons.FaInstagram />Instagram: jiufen_dp
                 </p>
               </a>
-              <a href="https://github.com/pardo312" target="_blank">
+              <a href="https://github.com/pardo312" target="_blank" rel="noopener noreferrer">
                 <p className="title">
                   <FaIcons.FaGithub />Github: pardo312
                 </p>
