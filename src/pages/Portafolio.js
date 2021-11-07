@@ -62,7 +62,7 @@ function Portafolio() {
           image: '/images/AgarioClone.png',
           imageBg: '/images/AgarioClone.png',
           title: 'Agar.io Concept',
-          description: 'Juego de ping pong desarrollado en html y javascrpit',
+          description: 'Replica del movimiento de agar.io, junto con su mecanica de comer particulas.',
           link: "https://agariomovementconcept.netlify.app/",
           video:''
         }
