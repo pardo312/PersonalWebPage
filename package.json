@@ -38,6 +38,11 @@
     ]
   },
   "devDependencies": {
+    "set-value": ">=4.0.1",
+    "tar": ">=4.4.18",
+    "trim-newlines": ">=3.0.1",
+    "serialize-javascript": ">=3.1.0",
+    "object-path": ">=0.11.8",
     "immer": ">=9.0.6",
     "gh-pages": "^3.2.3",
     "node-sass": "^4.14.1",
