@@ -13,18 +13,16 @@ function Navbar() {
   return (
     <>
       <IconContext.Provider value={{ color: '#fff' }}>
-        <Link className='navbar' onClick={showSidebar}>
+        <Link to="/#" className='navbar' onClick={showSidebar}>
           <div className='menu-arrow'>
-            <Link to='#' >
               <FaIcons.FaArrowRight />
-            </Link>
           </div>
-        </Link>
+        </Link >
 
-        <div class="container">
-          <div class="row">
+        <div className="container">
+          <div className="row">
             <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
-                    <div class="col-m-9">
+                    <div className="col-m-9">
                       <ul className='nav-menu-items' onClick={showSidebar}>
                         {SidebarData.map((item, index) => {
                           return (
@@ -40,7 +38,7 @@ function Navbar() {
                       </ul>
                     </div>
 
-                    <div class="col-m-3">
+                    <div className="col-m-3">
                       <div className='navbar-toggle' onClick={showSidebar}>
                         <Link to='#' className='menu-bars'>
                           < FaIcons.FaArrowLeft />
