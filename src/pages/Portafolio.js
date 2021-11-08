@@ -3,10 +3,11 @@ import Slider from '../components/NetflixSlider'
 import './Pages.css';
 
 function Portafolio() {
+console.log(process.cwd());
     const Games = [
         {
           id: 1,
-          image: '/images/LaRecostruccionBanner.jpg',
+          image:  '/images/LaRecostruccionBanner.jpg',
           title: 'La Reconstruccion',
           description: 'Desde falsos positivos, hasta asesinato de líderes sociales, reconstruyamos la historia tergiversada, hallemos la verdad, para que puedan descansar en paz. ',
           link: "https://angegrohl.itch.io/la-reconstruccion",

@@ -16,7 +16,7 @@ const Item = ({ movie }) => (
             'item--open': isActive,
           })}
         >
-          <img src={movie.image} alt="" />
+          <img src={ process.env.PUBLIC_URL + movie.image} alt="" />
           <ShowDetailsButton onClick={() => onSelectSlide(movie)} />
           {isActive }
         </div>
