@@ -11,10 +11,9 @@ function App() {
       <Router>
           <Navbar/>
           <Switch>
-            <Route path='/' exact component={Home} />
             <Route path='/PersonalWebPage' exact component={Home} />
-            <Route path='/portafolio' component={Portafolio} />
-            <Route path='/contacto' component={Contacto} />
+            <Route path='/PersonalWebPage/portafolio' component={Portafolio} />
+            <Route path='/PersonalWebPage/contacto' component={Contacto} />
           </Switch>
       </Router>
     </div>

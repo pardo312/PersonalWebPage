@@ -10,7 +10,7 @@ function AboutMe() {
         <div className="container">
           <h1 className="banner">Contacto </h1>
           <div className="row" style={{ marginTop: "50px" }}>
-            <div class="col-xl-12 col-12">
+            <div className="col-xl-12 col-12">
               <a href="mailto:pardod312@gmail.com" target="_blank" rel="noopener noreferrer">
                 <p className="title">
                   <FaIcons.FaEnvelope />Correo: pardod312@gmail.com
