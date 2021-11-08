@@ -8,9 +8,9 @@ const Content = ({ movie, onClose }) => (
       <div className="content__background__shadow" />
       <div
         className="content__background__image"
-        style={{ 'background-image': `url(${movie.imageBg})` }}
+        style={{ 'background-image': `url(${process.env.PUBLIC_URL+movie.imageBg})` }}
       >
-          <video className="content__background__video" src={movie.video}  width="100%" height="100%" loop="true" autoplay="autoplay">
+          <video className="content__background__video" src={process.env.PUBLIC_URL+ movie.video}  width="100%" height="100%" loop="true" autoplay="autoplay">
           Your browser does not support the video tag.
           </video>
       </div>
