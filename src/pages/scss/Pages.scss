@@ -1,0 +1,54 @@
+@import './variables.scss';
+
+//---Classes---
+.portafolio,
+.aboutMe {
+    background-color: $BGDark-color;
+    display: flex;
+    text-align: center;
+    height: 100vw;
+    margin-left: 35px;
+    justify-content: center;
+    padding-bottom: 10%;
+}
+
+.paragraph {
+    font-size: 1.4rem;
+    text-align: center;
+    color: $B1-color;
+}
+
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 10vw;
+}
+
+
+.barFrame {
+    background-color: grey;
+    justify-content: left;
+    margin-left: 30px;
+    padding: 0px;
+    width: 90%;
+    border-radius: 25px;
+}
+
+.barValue {
+    background-color: #D5DCE6;
+    border-radius: 25px;
+}
+
+.center {
+    text-align: center;
+    align-items: center;
+}
+
+.aling-Left {
+    text-align: left;
+    align-items: left;
+}
+
+.footer {
+    margin-bottom: 100px;
+}

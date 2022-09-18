@@ -1,0 +1,82 @@
+@import '../pages/scss/variables';
+$widthOfBarCollapsed: 5vw;
+$widthOfArrow: $widthOfBarCollapsed - 1.5vw;
+
+.navbar {
+  background-color: #000000;
+  height: 100vh;
+  width: $widthOfBarCollapsed;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  float: left;
+  z-index: 4;
+}
+
+.menu-arrow {
+  font-size: $widthOfArrow;
+  background: none;
+}
+
+.nav-menu {
+  background-color: #000000;
+  width: 30vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  transition: 850ms;
+  z-index: 4;
+}
+
+.nav-menu-items {
+  width: 100%;
+  height: 100%;
+}
+
+.nav-menu.active {
+  left: 0;
+  transition: 350ms;
+  z-index: 4;
+}
+
+.nav-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 8px 0px 8px 16px;
+  list-style: none;
+  height: 10vh;
+}
+
+.nav-text a {
+  text-decoration: none;
+  color: #f5f5f5;
+  font-size: 3vw;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  border-radius: 4px;
+}
+
+.nav-text a:hover {
+  background-color: #2F3146;
+}
+
+.navbar-toggle {
+  background-color: #000000;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 3vw;
+}
+
+span {
+  margin-left: 16px;
+}

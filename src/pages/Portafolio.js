@@ -1,6 +1,6 @@
 import React from 'react';
 import Slider from '../components/NetflixSlider'
-import './Pages.css';
+import './scss/Pages.scss';
 
 function Portafolio() {
 console.log(process.cwd());
@@ -93,13 +93,12 @@ console.log(process.cwd());
         <div className="portafolio">
             <div className="app">
             <p className="banner" style={{marginTop:"38px"}}>Portaforlio</p>
-                <p className="title">Juegos</p>
+                <p className="title">The journey</p>
                 <Slider>
                 {Games.map(Game => (
                     <Slider.Item movie={Game} key={Game.id}>item1</Slider.Item>
                 ))}
                 </Slider>
-                <p className="title">Modelado 3D</p>
                 <Slider>
                 {Blender.map(BlenderItem => (
                     <Slider.Item movie={BlenderItem} key={BlenderItem.id}>item1</Slider.Item>

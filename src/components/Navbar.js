@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import * as FaIcons from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import { SidebarData } from './SidebarData';
-import './Navbar.css';
+import './Navbar.scss';
 import { IconContext } from 'react-icons';
 
 function Navbar() {
@@ -40,7 +40,7 @@ function Navbar() {
 
                     <div className="col-m-3">
                       <div className='navbar-toggle' onClick={showSidebar}>
-                        <Link to='#' className='menu-bars'>
+                        <Link to='#' className='menu-arrow'>
                           < FaIcons.FaArrowLeft />
                         </Link>
                       </div>
