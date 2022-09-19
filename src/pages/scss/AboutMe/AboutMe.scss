@@ -1,0 +1,47 @@
+@import '../Variables.scss';
+
+.aboutMe {
+    background-color: $Dark-color;
+    display: flex;
+    text-align: center;
+    width: 100vw;
+    height: 100vw;
+    padding-bottom: 10%;
+}
+
+.title_story {
+    margin-top: 5vh;
+    padding-bottom: 3vh;
+    text-align: right;
+}
+
+.profilePic {
+    width: 38%;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 4vh;
+    padding-right: 5vh;
+}
+
+
+.paragraph {
+    width: 50%;
+    display: inline-block;
+
+    font-size: 2vw;
+    color: $B1-color;
+    text-align: right;
+}
+
+.containerPadding1 {
+    margin: 0;
+    padding: 0;
+    width: 95vw;
+}
+
+.containerPadding2 {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    padding-left: 4vw;
+}

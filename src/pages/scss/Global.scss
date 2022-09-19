@@ -1,8 +1,7 @@
-@import './variables.scss';
+@import './Variables.scss';
 
 //---Classes---
-.portafolio,
-.aboutMe {
+.portafolio{
     background-color: $BGDark-color;
     display: flex;
     text-align: center;
@@ -12,16 +11,25 @@
     padding-bottom: 10%;
 }
 
-.paragraph {
-    font-size: 1.4rem;
-    text-align: center;
-    color: $B1-color;
+.title {
+    margin-bottom: 0;
+    color: $highlight-color;
+
+    font: {
+        size: 8vw;
+        family: 'Roboto Serif', serif;
+        weight: bold;
+    }
 }
 
-.content {
-    margin-left: auto;
-    margin-right: auto;
-    width: 10vw;
+.text {
+    color: $B1-color;
+
+    font: {
+        family: 'Roboto Slab', serif;
+        weight: normal;
+        size: 3.5vw;
+    }
 }
 
 

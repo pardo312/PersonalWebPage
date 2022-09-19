@@ -1,6 +1,6 @@
 import React from 'react';
 import Slider from '../components/NetflixSlider'
-import './scss/Pages.scss';
+import './scss/Global.scss';
 
 function Portafolio() {
 console.log(process.cwd());

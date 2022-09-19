@@ -1,5 +1,5 @@
 //----Imports----
-@import '../variables.scss';
+@import '../Variables.scss';
 @import './Home_LowerPart.scss';
 
 //----Classes----
@@ -10,27 +10,6 @@
     text-align: center;
     height: auto;
     justify-content: center;
-}
-
-.title {
-    margin-bottom: 0;
-    color: $highlight-color;
-
-    font: {
-        size: 8vw;
-        family: 'Roboto Serif', serif;
-        weight: bold;
-    }
-}
-
-.text {
-    color: $B1-color;
-
-    font: {
-        family: 'Roboto Slab', serif;
-        weight: normal;
-        size: 3.5vw;
-    }
 }
 
 @mixin dragon() {

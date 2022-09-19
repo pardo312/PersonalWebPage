@@ -1,34 +1,21 @@
 import React from 'react'
-import './scss/Pages.scss';
+import './scss/AboutMe/AboutMe.scss';
+import './scss/Global.scss';
 
 function AboutMe() {
     return (
-        <div className="aboutMe ">
-            <div className="container" >
-                <h1 className="banner">The story </h1>
-                <h2 className="title center">
-                    <br /> Bienvenidos a mi pagina web
-                    <br />
-                    <br />
+        <div className="aboutMe">
+            <div className='containerPadding1' >
+                <h2 className="title title_story">
+                    The story
                 </h2>
-                <div className="row" >
-                    <div className="col-xl-6 col-sm-12">
-                        <div className="content center" >
-                            <img className="card-img center" style={{ maxWidth: "30vw" }} src="https://i.imgur.com/zFWSXIt.jpg" alt="profileImg" />
-                        </div>
-                    </div>
-                    <div className="col-xl-6 col-12">
-                        <p className="paragraph">
-                            Desde que tengo memoria me apasionan los videojuegos.
-                            Me encantaba la forma en que me apoyaban en los momentos más difíciles de mi vida,
-                            para seguir luchando contra los obstáculos. A determinar. Por eso mi sueño es
-                            convertirme en diseñador de videojuegos, para llevar a la gente el mismo apoyo
-                            que mis héroes hicieron cuando yo estaba abajo.
-                        </p>
-                    </div>
-                </div>
+                <div className='containerPadding2'>
+                    <img className="profilePic" src="https://i.imgur.com/zFWSXIt.jpg" alt="profileImg" />
+                    <p className="paragraph">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac tincidunt lacus, scelerisque blandit diam. Aliquam tincidunt, erat at hendrerit suscipit, arcu neque tempor erat, eget hendrerit nibh nisl quis lacus. Maecenas et blandit metus. Aliquam fringilla risus a tempus bibendum. Sed consequat cursus lectus, eu congue est. Maecenas laoreet lobortis leo non efficitur. Vivamus laoreet neque nec justo blandit vestibulum vitae ut ex. Mauris blandit lorem at lacus scelerisque, quis tincidunt lacus tincidunt. Mauris convallis risus in dolor consectetur, a efficitur sapien elementum. Sed efficitur augue eget dictum pulvinar. Nulla facilisi. Pellentesque sodales orci ac nisi auctor fringilla.
+                    </p></div>
             </div>
-        </div>
+        </div >
     )
 }
 
