@@ -1,0 +1,61 @@
+//----Variables----
+$mountainsSeparation: 30vh;
+
+//----LowerImages----
+.lowerImagesParent {
+    width: 100vw;
+}
+
+@mixin gamesImages() {
+    position: relative;
+}
+
+.gamesImages {
+    @include gamesImages();
+}
+
+.gamesImages1 {
+    @include gamesImages();
+    right: 6.5%;
+    bottom: 2.3vw;
+    width: 17%;
+}
+
+.gamesImages2 {
+    @include gamesImages();
+    right: 8.5%;
+    top: 8vw;
+    width: 12%;
+}
+
+.gamesImages3 {
+    @include gamesImages();
+    left: 2%;
+    top: 5vw;
+    width: 12%;
+}
+
+.gamesImages4 {
+    @include gamesImages();
+    left: 12%;
+    top: 3vw;
+    width: 12%;
+}
+
+.gamesImages5 {
+    @include gamesImages();
+    left: 13%;
+    bottom: 3vw;
+    width: 21%;
+}
+
+.separatorMountains {
+    height: 20vw;
+}
+
+.mountains {
+    position: absolute;
+    left: 0px;
+    width: 100vw;
+    top: 20vw;
+}
