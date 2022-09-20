@@ -13,6 +13,7 @@ function App() {
         <Navbar />
         <Home />
         <AboutMe />
+        <Portafolio />
       </Router>
     </div>
   );
@@ -20,5 +21,4 @@ function App() {
 
 export default App;
 
-        //<Portafolio />
         //<Contacto />

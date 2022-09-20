@@ -1,0 +1,22 @@
+{
+    "Blender": [
+        {
+            "id": 1,
+            "image": "/images/SeashackModelBanner.png",
+            "imageBg": "",
+            "title": "Choza en el mar",
+            "description": "Choza en el mar utilizando tecnicas de escultura basica para las rocas, uso de curvas para las cuerdas y aplicacion de modelado 3d para los demas objetos y animales",
+            "link": "",
+            "video": "/images/SeaShackModel.mp4"
+        },
+        {
+            "id": 2,
+            "image": "/images/Pozo.jpeg",
+            "imageBg": "/images/Pozo.jpeg",
+            "title": "Pozo",
+            "description": "Pozo utilizando tecnicas de modelado 3d y conocimiento de herramientas de blender",
+            "link": "",
+            "video": ""
+        }
+    ]
+}

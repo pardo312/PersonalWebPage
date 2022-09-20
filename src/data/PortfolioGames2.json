@@ -1,0 +1,31 @@
+{
+    "Games": [
+        {
+            "id": 1,
+            "image": "/images/CatequilBanner.jpg",
+            "imageBg": "/images/CatequilContent.jpg",
+            "title": "La Leyenda de Catequil",
+            "description": "First person shooter, que cuenta la historia del dios inca ubicado al sur de colombia, Catequil. ",
+            "link": "https://jiufen.itch.io/la-leyenda-de-catequil",
+            "video": ""
+        },
+        {
+            "id": 2,
+            "image": "/images/PingPong.png",
+            "imageBg": "/images/PingPongContent.png",
+            "title": "Ping Pong",
+            "description": "Juego de ping pong desarrollado en html y javascrpit",
+            "link": "https://pingpongjiufen.netlify.app/",
+            "video": ""
+        },
+        {
+            "id": 3,
+            "image": "/images/AgarioClone.png",
+            "imageBg": "/images/AgarioClone.png",
+            "title": "Agar.io Concept",
+            "description": "Juego de ping pong desarrollado en html y javascrpit",
+            "link": "https://agariomovementconcept.netlify.app/",
+            "video": ""
+        }
+    ]
+}
