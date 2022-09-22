@@ -1,0 +1,36 @@
+{
+    "Games": [
+        {
+            "id": 1,
+            "image": "/images/Portfolio/Work/GetaPuzzle/GETAPuzzle.png",
+            "imageBg": "/images/Portfolio/Work/GetaPuzzle/GetaPuzzleBG.png",
+            "title": "GETA Puzzle",
+            "description": "Juego de match3 en el cual participe activamente en las mecanicas de juego, networking online e integracion de arte.",
+            "link": "https://play.google.com/store/apps/details?id=com.getaclub.puzzle"
+        },
+        {
+            "id": 2,
+            "image": "/images/Portfolio/Work/GetaPunch/GetaPunch.png",
+            "imageBg": "/images/Portfolio/Work/GetaPunch/GetaPunchBG.png",
+            "title": "GETA Punch",
+            "description": "Juego de peleas online, en el cual participe activamente en mecanicas, integracion de arte y solucion networking online de bajo nivel",
+            "link": "https://play.google.com/store/apps/details?id=com.getaclub.puzzle"
+        },
+        {
+            "id": 3,
+            "image": "/images/Portfolio/Work/GetaTanks/GetaTanks.png",
+            "imageBg": "/images/Portfolio/Work/GetaTanks/GetaTanksBG.png",
+            "title": "GETA Puzzle",
+            "description": "Juego de tanques, online en el cual participe activamente en mecanicas, integracion de arte y solucion networking online de bajo nivel",
+            "link": "https://play.google.com/store/apps/details?id=com.getaclub.puzzle"
+        },
+        {
+            "id": 4,
+            "image": "/images/Portfolio/Work/GetaLW/GetaLW.png",
+            "imageBg": "/images/Portfolio/Work/GetaLW/GetaLWBG.png",
+            "title": "GETA Last Warriors",
+            "description": "Juego de guerreros online, en el cual participe activamente en mecanicas, integracion de arte y solucion networking online de bajo nivel",
+            "link": "https://play.google.com/store/apps/details?id=com.getaclub.puzzle"
+        }
+    ]
+}

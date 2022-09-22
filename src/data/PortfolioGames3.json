@@ -1,0 +1,20 @@
+{
+    "Games": [
+        {
+            "id": 1,
+            "image": "/images/Portfolio/Progamming/TimeToDie/TimeToDie.png",
+            "imageBg": "/images/Portfolio/Progamming/TimeToDie/TimeToDieBG.png",
+            "title": "Time To Die",
+            "description": "Action game, where you switch weapons every 5 seconds.",
+            "link": "https://jiufen.itch.io/timetodie"
+        },
+        {
+            "id": 2,
+            "image": "/images/Portfolio/Progamming/EJ2022/EJ2022.png",
+            "imageBg": "/images/Portfolio/Progamming/EJ2022/EJ2022BG.png",
+            "title": "En la tierra como en el infierno",
+            "description": "Horror game made in ureal engine for the Epic Jam 2022.",
+            "link": "https://tangrandeyjugando.itch.io/asi-en-la-tierra-como-en-el-infierno"
+        }
+    ]
+}

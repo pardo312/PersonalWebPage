@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import cx from 'classnames';
 import SliderContext from './context'
 import Content from './Content'
-import SlideButton from './SlideButton'
 import SliderWrapper from './SliderWrapper'
 import useSliding from './useSliding'
 import useSizeElement from './useSizeElement'
@@ -12,12 +11,8 @@ const Slider = ({ children, activeSlide }) => {
   const [currentSlide, setCurrentSlide] = useState(activeSlide);
   const { width, elementRef } = useSizeElement();
   const {
-    handlePrev,
-    handleNext,
     slideProps,
     containerRef,
-    hasNext,
-    hasPrev
   } = useSliding(width, React.Children.count(children));
 
   const handleSelect = movie => {

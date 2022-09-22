@@ -2,29 +2,37 @@
     "Games": [
         {
             "id": 1,
-            "image": "/images/CatequilBanner.jpg",
-            "imageBg": "/images/CatequilContent.jpg",
-            "title": "La Leyenda de Catequil",
-            "description": "First person shooter, que cuenta la historia del dios inca ubicado al sur de colombia, Catequil. ",
-            "link": "https://jiufen.itch.io/la-leyenda-de-catequil",
-            "video": ""
+            "image": "/images/Portfolio/Progamming/LaReconstruccion/LaRecostruccionBanner.jpg",
+            "title": "La Reconstruccion",
+            "description": "Desde falsos positivos, hasta asesinato de líderes sociales, reconstruyamos la historia tergiversada, hallemos la verdad, para que puedan descansar en paz. ",
+            "link": "https://angegrohl.itch.io/la-reconstruccion",
+            "video": "/images/Portfolio/Progamming/LaReconstruccion/LaReconstruccion.mp4"
         },
         {
             "id": 2,
-            "image": "/images/PingPong.png",
-            "imageBg": "/images/PingPongContent.png",
-            "title": "Ping Pong",
-            "description": "Juego de ping pong desarrollado en html y javascrpit",
-            "link": "https://pingpongjiufen.netlify.app/",
+            "image": "/images/Portfolio/Progamming/BoomAway/BoomAwayBanner.jpeg",
+            "imageBg": "/images/Portfolio/Progamming/BoomAway/BoomAwayContent.png",
+            "title": "BoomAway",
+            "description": "Videojuego de puzzle en el cual el personaje tenga control de diferentes herramientas explosivas para concatenar acciones que lo lleven a alcanzar el final de los niveles. ",
+            "link": "https://boomawayinc.itch.io/boomaway",
             "video": ""
         },
         {
             "id": 3,
-            "image": "/images/AgarioClone.png",
-            "imageBg": "/images/AgarioClone.png",
-            "title": "Agar.io Concept",
-            "description": "Juego de ping pong desarrollado en html y javascrpit",
-            "link": "https://agariomovementconcept.netlify.app/",
+            "image": "/images/Portfolio/Progamming/LasPeripeciasenLaCatedral/LasPeripeciasEnLaCatedral.png",
+            "imageBg": "/images/Portfolio/Progamming/LasPeripeciasenLaCatedral/LasPeripeciasEnLaCatedralBG.png",
+            "title": "Las Peripecias En La Catedral",
+            "description": "Manuel Tolsá tiene que recolectar escombros de la catedral durante el sismo de 2017 y recuperar los pedazos de la Esperanza para poder hacer la restauración de esta!",
+            "link": "https://soequelle.itch.io/las-peripecias-en-la-catedral",
+            "video": ""
+        },
+        {
+            "id": 4,
+            "image": "/images/Portfolio/Progamming/LifeBeats/LifeBeats.png",
+            "imageBg": "/images/Portfolio/Progamming/LifeBeats/LifeBeatsBG.png",
+            "title": "LifeBeats",
+            "description": "Global Game Jam 2022 Entry. Rythm game base on balance, where instead of pressing one key to play the note you have to search for the right color and size to match it.",
+            "link": "https://berserker1523.itch.io/life-beats",
             "video": ""
         }
     ]
