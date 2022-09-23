@@ -1,6 +1,7 @@
 import React from 'react';
 import Slider from '../components/NetflixSlider'
 import './scss/Global.scss';
+import './scss/Portfolio/Portfolio.scss';
 import dataPortfolioBlender from '../data/PortfolioBlender.json';
 import dataPortfolioGames1 from '../data/PortfolioGames1.json';
 import dataPortfolioGames2 from '../data/PortfolioGames2.json';
@@ -9,8 +10,8 @@ import dataPortfolioWork1 from '../data/PortfolioWork1.json';
 
 function Portafolio() {
   return (
-    <div className="portafolio">
-      <div className="app">
+    <div id="portfolio" className="portafolio">
+      <div >
         <p className="title">The journey</p>
         <p className="subtitle">My progamming projects</p>
         <Slider>

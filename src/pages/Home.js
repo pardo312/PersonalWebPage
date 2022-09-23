@@ -3,7 +3,7 @@ import './scss/Home/Home.scss';
 
 function Home() {
     return (
-        <div className="home">
+        <div id="home" className="home">
             <h1 className="title">
                 <img className="dragon-left" src={process.env.PUBLIC_URL + "/images/Home/Dragon1.png"} alt="Dragon" />
                 Daniel Pardo

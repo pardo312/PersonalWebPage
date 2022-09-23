@@ -1,0 +1,11 @@
+@import '../Variables.scss';
+
+.portafolio{
+    background-color: $Dark-color;
+    display: flex;
+    text-align: center;
+    height: 200%;
+    margin-left: 3vw;
+    justify-content: center;
+    padding-bottom: 10%;
+}

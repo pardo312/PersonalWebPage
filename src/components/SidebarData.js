@@ -6,19 +6,25 @@ import * as IOIcons from "react-icons/io"
 export const SidebarData = [
     {
         title: 'Home',
-        path: '/PersonalWebPage',
+        path: '#home',
         icon: <AiIcons.AiFillHome/>,
         cName: 'nav-text'
     },
     {
+        title: 'The story',
+        path: '#aboutMe',
+        icon: <FaIcons.FaBook/>,
+        cName: 'nav-text'
+    },
+    {
         title: 'Portafolio',
-        path: '/PersonalWebPage/portafolio',
+        path: '#portfolio',
         icon: <FaIcons.FaBlackTie/>,
         cName: 'nav-text'
     },
     {
         title: 'Contacto',
-        path: '/PersonalWebPage/contacto',
+        path: '#contactMe',
         icon: <IOIcons.IoIosContact/>,
         cName: 'nav-text'
     }

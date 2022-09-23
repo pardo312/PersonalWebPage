@@ -1,6 +1,6 @@
 @import '../Variables.scss';
 
-.aboutMe {
+.contactMe {
     background-color: $Dark-color;
     display: flex;
     text-align: center;
@@ -8,10 +8,26 @@
     height: 70vw;
 }
 
-.title_story {
-    margin-top: 2vh;
+.containerPage {
+    margin: 0;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+.contactButtonsContainer {
+    width: 100%;
+}
+
+.contactButtons {
+    margin: 0 5vw 0;
+    font-size: 10vw;
+}
+
+.title_looking {
+    margin-top: 5vh;
     padding-bottom: 3vh;
-    text-align: right;
+    text-align: center;
 }
 
 .profilePic {

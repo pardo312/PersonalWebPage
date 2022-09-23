@@ -8,17 +8,16 @@ import Portafolio from './pages/Portafolio'
 import Contacto from './pages/Contacto'
 function App() {
   return (
-    <div >
+    <div className="app">
       <Router>
         <Navbar />
         <Home />
         <AboutMe />
         <Portafolio />
+        <Contacto />
       </Router>
     </div>
   );
 }
 
 export default App;
-
-        //<Contacto />
