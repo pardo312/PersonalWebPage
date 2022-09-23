@@ -12,8 +12,8 @@ function Portafolio() {
   return (
     <div id="portfolio" className="portafolio">
       <div className='expand'>
-        <p className="title">The journey</p>
-        <p className="subtitle">My progamming projects</p>
+        <p className="title title_journey">The journey</p>
+        <p className="subtitle subtitle_portfolio">My progamming projects</p>
         <Slider>
           {dataPortfolioGames1.Games.map(Game => (
             <Slider.Item movie={Game} key={Game.id}>item1</Slider.Item>
@@ -29,13 +29,13 @@ function Portafolio() {
             <Slider.Item movie={Game} key={Game.id}>item1</Slider.Item>
           ))}
         </Slider>
-        <p className="subtitle">Programming for others</p>
+        <p className="subtitle subtitle_portfolio">Programming for others</p>
         <Slider>
           {dataPortfolioWork1.Games.map(Game => (
             <Slider.Item movie={Game} key={Game.id}>item1</Slider.Item>
           ))}
         </Slider>
-        <p className="subtitle">3D Modeling</p>
+        <p className="subtitle subtitle_portfolio">3D Modeling</p>
         <Slider>
           {dataPortfolioBlender.Blender.map(BlenderItem => (
             <Slider.Item movie={BlenderItem} key={BlenderItem.id}>item1</Slider.Item>
