@@ -11,7 +11,7 @@ import dataPortfolioWork1 from '../data/PortfolioWork1.json';
 function Portafolio() {
   return (
     <div id="portfolio" className="portafolio">
-      <div >
+      <div className='expand'>
         <p className="title">The journey</p>
         <p className="subtitle">My progamming projects</p>
         <Slider>
