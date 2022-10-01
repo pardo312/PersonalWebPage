@@ -10,7 +10,7 @@ function AboutMe() {
       <div id="contactMe" className="contactMe">
         <div className="container">
           <h1 className="title title_looking">Looking foward to work with you </h1>
-          <p className="subtitle">Open for freelance games, full-time job, to work with you or to say hello.</p>
+          <p className="subtitle">Open for freelance games, full-time job or to say hello.</p>
           <div className="contactButtonsContainer ">
             <a className="contactButtons" href="https://www.instagram.com/jiufen_dp/" target="_blank" rel="noopener noreferrer">
               <FaIcons.FaInstagram />

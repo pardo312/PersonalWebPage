@@ -6,6 +6,8 @@ import Home from './pages/Home'
 import AboutMe from './pages/AboutMe'
 import Portafolio from './pages/Portafolio'
 import Contacto from './pages/Contacto'
+import References from './pages/References'
+
 function App() {
   return (
     <div className="app">
@@ -14,6 +16,7 @@ function App() {
         <Home />
         <AboutMe />
         <Portafolio />
+        <References/>
         <Contacto />
       </Router>
     </div>
