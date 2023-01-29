@@ -2,34 +2,8 @@
 
 .aboutMe {
     background-color: $Dark-color;
-    display: flex;
-    text-align: center;
-    width: 100vw;
-    height: 200vw;
-    margin-left: 2vw;
-}
-
-.title_story {
-    margin-top: 2vh;
-    padding-bottom: 3vh;
-    text-align: right;
-}
-
-.profilePic {
-    width: 38%;
-    display: inline-block;
-    vertical-align: top;
-    padding-top: 4vh;
-    padding-right: 5vh;
-}
-
-.paragraph {
-    width: 50%;
-    display: inline-block;
-
-    font-size: 2vw;
-    color: $B1-color;
-    text-align: right;
+    width: 95vw;
+    height: 220vw;
 }
 
 .containerPadding1 {
@@ -38,9 +12,52 @@
     width: 95vw;
 }
 
+.title_story {
+    margin-top: 2vh;
+    padding-bottom: 3vh;
+    text-align: right;
+}
+
 .containerPadding2 {
     margin: 0;
     padding: 0;
     width: 100vw;
     padding-left: 4vw;
+    display: inline-flex;
+}
+
+.imageContainer {
+    display: grid;
+    place-items: center;
+    margin-top: -10vh;
+    padding: 0;
+    flex: 1;
+}
+
+.profilePic {
+    border-radius: 50%;
+    width: 600px;
+    height: 600px;
+}
+
+.paragraphStory {
+    width: 50%;
+    margin-right: 2vw;
+    margin-top: 15vh;
+    display: inline-block;
+
+    font-size: 2vw;
+    color: $B1-color;
+    text-align: right;
+}
+
+.titleParagraphStory {
+    color: $B2-color;
+}
+
+.singleParagraphStory {
+
+    font-size: 2vw;
+    color: $B1-color;
+    text-align: right;
 }

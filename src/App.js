@@ -16,7 +16,6 @@ function App() {
         <Home />
         <AboutMe />
         <Portafolio />
-        <References/>
         <Contacto />
       </Router>
     </div>
