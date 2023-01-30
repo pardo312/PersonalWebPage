@@ -3,7 +3,8 @@
 .aboutMe {
     background-color: $Dark-color;
     width: 95vw;
-    height: 230vw;
+    height: auto;
+    padding-bottom: 10vh;
 }
 
 .containerPadding1 {
@@ -42,8 +43,7 @@
 
 .paragraphStory {
     width: 50%;
-    margin-right: 2vw;
-    margin-top: 10vh;
+    padding-right: 2vw;
     display: inline-block;
 
     font-size: 2vw;
@@ -53,6 +53,7 @@
 
 .titleParagraphStory {
     color: $B2-color;
+    font-size: 3vw;
 }
 
 .singleParagraphStory {
